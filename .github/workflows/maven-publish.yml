@@ -22,7 +22,7 @@ jobs:
         run: mvn clean install
 
       - name: Print JAR File Name
-        run: echo "The generated JAR file is: target/$(basename target/*.jar)"
+        run: echo "The generated JAR file is target/$(basename target/*.jar)"
 
       - name: Run JAR file
         run: java -jar target/$(basename target/*.jar)
