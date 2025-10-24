@@ -28,4 +28,4 @@ jobs:
 
     # Step 4: Run the JAR file
     - name: Run the JAR file
-      run: java -jar target/your-jar-file.jar
+      run: java -jar target/your-project-1.0-SNAPSHOT.jar
